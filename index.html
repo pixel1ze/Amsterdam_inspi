@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title></title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="logo">G</div>
+
+    <div data-barba="wrapper">
+      <!-- put here content that will not change
+      between your pages, like <header> or <nav> -->
+
+      <div data-barba="container" data-barba-namespace="home">
+        <!-- put here the content you wish to change
+        between your pages, like your main content <h1> or <p> -->
+
+        <!--  items  -->
+        <div class="items">
+          <!--  item1  -->
+          <a
+            href="page1.html"
+            class="item"
+            style="
+              background-image: url('https://raw.githubusercontent.com/akella/pjax/master/src/img/1.jpg');
+            "
+          >
+            <h2 class="item__title">Bla1</h2>
+          </a>
+          <!--  item1  -->
+
+          <!--  item2  -->
+          <a
+            href="page2.html"
+            class="item"
+            style="
+              background-image: url('https://raw.githubusercontent.com/akella/pjax/master/src/img/2.jpg');
+            "
+          >
+            <h2 class="item__title">Bla2</h2>
+          </a>
+          <!--  item2  -->
+
+          <!--  item3  -->
+          <a
+            href="page3.html"
+            class="item"
+            style="
+              background-image: url('https://raw.githubusercontent.com/akella/pjax/master/src/img/3.jpg');
+            "
+          >
+            <h2 class="item__title">Bla3</h2>
+          </a>
+          <!--  item3  -->
+
+          <!--  item4  -->
+          <a
+            href="page4.html"
+            class="item"
+            style="
+              background-image: url('https://raw.githubusercontent.com/akella/pjax/master/src/img/4.jpg');
+            "
+          >
+            <h2 class="item__title">Bla4</h2>
+          </a>
+          <!--  item4  -->
+
+          <!--  item5  -->
+          <a
+            href="page5.html"
+            class="item"
+            style="
+              background-image: url('https://raw.githubusercontent.com/akella/pjax/master/src/img/5.jpg');
+            "
+          >
+            <h2 class="item__title">Bla5</h2>
+          </a>
+          <!--  item5  -->
+
+          <!--  item6  -->
+          <a
+            href="page6.html"
+            class="item"
+            style="
+              background-image: url('https://raw.githubusercontent.com/akella/pjax/master/src/img/6.jpg');
+            "
+          >
+            <h2 class="item__title">Bla6</h2>
+          </a>
+          <!--  item6  -->
+        </div>
+        <!--  items  -->
+      </div>
+
+      <!-- put here content that will not change
+      between your pages, like <footer> -->
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
